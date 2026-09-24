@@ -1,4 +1,4 @@
 interface:
   display_name: "去AI味"
   short_description: "四阶段多语言回译去除 AI 腔，缺少 DeepL Key 时先提醒配置"
-  default_prompt: "使用 $qu-ai-wei 按 text-humanizer 四阶段流程改写下面的文字；开始前检查 DeepL API Key，缺少时先提醒我提供或明确选择跳过。"
+  default_prompt: "使用 $qu-ai-wei 按四阶段多语言流程改写下面的文字；开始前检查 DeepL API Key，缺少时先提醒我提供或明确选择跳过。"
