@@ -1,9 +1,9 @@
 ---
-name: text-humanizer-safe
+name: qu-ai-wei
 description: Rewrite user-provided Chinese, English, or multilingual prose so it reads naturally while preserving facts, meaning, tone, citations, numbers, names, quotations, URLs, and claim strength. Use when the user asks to 去 AI 味、降低 AI 腔、humanize text、make writing sound natural, or revise robotic prose. Do not use for writing unrelated new content from scratch.
 ---
 
-# Safe Text Humanizer
+# 去AI味
 
 Rewrite the user's existing text in the model. Do not run scripts, install packages, call external services, or send the text to another API unless the user explicitly requests that separate action.
 
