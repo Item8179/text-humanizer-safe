@@ -38,19 +38,23 @@
 
 ## 安装
 
-将这个仓库下载或克隆到 Codex 的 Skills 目录，并把目录名称设为 `qu-ai-wei`：
+下载或克隆仓库后，把仓库内的 `qu-ai-wei` 文件夹复制到 Codex 的 Skills 目录：
 
 - Windows：`C:\Users\<用户名>\.codex\skills\qu-ai-wei`
 - macOS / Linux：`~/.codex/skills/qu-ai-wei`
 
-安装后应能看到以下结构：
+使用 Codex 的 GitHub Skill 安装器时，仓库路径填写 `qu-ai-wei`，不要填写仓库根目录。
+
+仓库结构如下：
 
 ```text
-qu-ai-wei/
-├── SKILL.md
-├── agents/
-│   └── openai.yaml
-└── .gitignore
+仓库根目录/
+├── README.md
+└── qu-ai-wei/
+    ├── SKILL.md
+    ├── agents/
+    │   └── openai.yaml
+    └── .gitignore
 ```
 
 重新打开 Codex 或刷新 Skills 后即可使用。
@@ -102,4 +106,3 @@ deepl_api_key = "填写你自己的 DeepL API Key"
 这个 Skill 用于改善自然度、表达方式和文风，不保证通过任何 AI 内容检测器。不同检测器的规则会变化，结果也可能互相矛盾。
 
 涉及合同、医学、财务、学术引用或其他高风险内容时，请在使用最终文本前人工核对事实、术语和引用。
-
